@@ -3,6 +3,8 @@ from ..items import ScrapyamazonItem
 from scrapy.utils.response import open_in_browser
 from .config import API_KEY
 
+#Test
+
 class AmazonSpiderSpider(scrapy.Spider):
     name = 'amazon_sp_2'
     page_number = 2
